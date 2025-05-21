@@ -1,0 +1,7 @@
+ShowLoanAccMessage = 
+IF(
+    [LoanDataExists] = 0, 
+    [NoLoanAccountSVG_Animated]
+, 
+    ""
+)
